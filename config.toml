@@ -1,0 +1,41 @@
+theme = "anemone"
+
+# The URL the site will be built for
+base_url = "https://leo.skadden.tech"
+
+title = "Leo Skadden"
+description = "A website hosting information and a blog for the technical endevours of Leo Skadden"
+
+default_language = "en"
+
+minify_html = false
+
+generate_feed = true
+
+author = "Leo Skadden"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+smart_punctuation = true
+
+[extra]
+# Put all your custom variables here
+default_theme = "light"
+list_pages = true
+twitter_card = false
+display_author = true
+
+header_nav = [
+  { url = "/", name_en = "/home/" },
+  { url = "/resume", name_en = "/resume/" },
+  { url = "/blog", name_en = "/blog/" }
+]

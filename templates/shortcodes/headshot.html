@@ -1,0 +1,13 @@
+{% set image = resize_image(path="/static/headshot.webp", width=275, height=275, op="scale") %}
+
+<div class="grid-container">
+    <img src="{{ image.url }}" />
+    <p>{{ body }}</p>
+</div>
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+</style>
