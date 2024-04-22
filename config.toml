@@ -1,7 +1,8 @@
 theme = "anemone"
 
 # The URL the site will be built for
-base_url = "https://leo.skadden.tech"
+# base_url = "https://leo.skadden.tech"
+base_url = "https://skadden.pages.dev"
 
 title = "Leo Skadden"
 description = "A website hosting information and a blog for the technical endevours of Leo Skadden"
