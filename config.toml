@@ -2,7 +2,7 @@ theme = "anemone"
 
 # The URL the site will be built for
 # base_url = "https://leo.skadden.tech"
-base_url = "https://skadden.pages.dev"
+base_url = "https://leo.skadden.tech"
 
 title = "Leo Skadden"
 description = "A website hosting information and a blog for the technical endevours of Leo Skadden"
@@ -38,5 +38,6 @@ display_author = true
 header_nav = [
   { url = "/", name_en = "/home/" },
   { url = "/resume", name_en = "/resume/" },
+  { url = "/projects", name_en = "/projects/"},
   { url = "/blog", name_en = "/blog/" }
 ]
